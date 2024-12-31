@@ -288,14 +288,30 @@ footer {
   text-align: center; /* Optional: Set a text color */
 }
 .cert-container {
-  margin-left: 8%;
+  margin-left: 2%;
   margin-top: 5%;
+  flex-wrap: wrap;
+  gap: 5%;
   display: flex;
 }
 .cert-card {
   text-align: center;
   width: 300px;
   margin-left: 6%;
+  margin-top: 6%;
+}
+
+.project-card {
+  text-align: center;
+  width: 350px;
+  margin-left: 6%;
+  cursor: pointer;
+  background-color: white; /* White background for the card */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  padding-bottom: 1%;
+  margin-top: 15%;
+  overflow: visible;
 }
 .cert-card img {
   width: 100%;
@@ -419,4 +435,14 @@ footer {
   margin: 0; /* Spacing between image and name */
   display: inline-block; /* Adjusts the size to fit the text */
   text-align: center;
+}
+
+.contact-container {
+  margin-top: 6%;
+  display: flex;
+  gap: 10%;
+  text-align: center;
+  margin-left: 16%;
+  font-size: 120%;
+  font-family: Georgia, serif;
 }
